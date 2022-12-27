@@ -1,0 +1,50 @@
+#form{
+    background-color: #a900d9;
+    padding: 10px;
+    color: white;
+}
+
+
+.title{
+    font-family: comic;
+}
+.info{
+    color: rgba(2, 2, 178, 0.805);
+}
+input[type = 'checkbox']{
+    border: none;
+    background-color: rgb(212, 211, 211);
+}
+
+input[type = 'checkbox']:checked{
+    border: none;
+    background-color: limegreen;
+}
+
+.listitem{
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: rgb(212, 211, 211);
+}
+
+
+.deleteBtn{
+    opacity: 0;
+}
+
+.listitem:hover .deleteBtn{
+    cursor:pointer;
+    opacity: 100;
+}
+
+.completed{
+    background-color: limegreen;
+}
+
+.completed label{
+    text-decoration: line-through;
+}
+#list{
+    height: 70vh;
+    overflow:auto;
+}
